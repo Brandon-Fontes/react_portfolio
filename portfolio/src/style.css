@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap");
 .box {
   margin-top: 200px;
   margin-left: 350px;
@@ -6,6 +7,23 @@
   background-color: grey;
 }
 
-.headshot{
-	width: 100%;
+.headshot {
+  width: 100%;
+  border: 3px solid;
+}
+.back {
+  background-color: grey;
+}
+.lead {
+  text-align: center;
+  color: #ff1710;
+  font-family: "Kiwi Maru", serif;
+}
+.social {
+  height: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.social1 {
+  margin-left: 10%;
 }
