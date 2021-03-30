@@ -1,16 +1,14 @@
 import React from 'react';
-import Nav from './Nav';
-import About from './About';
-
+import Home from './Home';
+import Projects from './Projects';
 
 
 
 function App() {
   return (
     <>
-    <Nav />
-    
-    <About />
+    <Home />
+    <Projects />
     </>
   );
 }
