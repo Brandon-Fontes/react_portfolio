@@ -1,16 +1,16 @@
 import React from 'react';
+import { Route } from "react-router-dom";
 import Home from './Home';
 import Projects from './Projects';
+import Nav from './Nav';
+import 'bootstrap/dist/css/bootstrap.css';
 
-
-
-function App() {
+export default function App() {
   return (
-    <>
-    <Home />
-    <Projects />
-    </>
+    <div>
+      <Nav />
+      <Route exact path="/"><Home /></Route>
+      <Route path="/projects"><Projects /></Route>
+    </div>
   );
 }
-
-export default App;
