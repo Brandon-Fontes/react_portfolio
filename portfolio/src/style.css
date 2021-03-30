@@ -27,3 +27,13 @@
 .social1 {
   margin-left: 10%;
 }
+
+.navbar-nav a{
+	margin-left: 10px;
+	color: #fff;
+}
+
+.navbar p{
+	color: #fff;
+	font-size: 18px;
+}
