@@ -12,7 +12,7 @@ export default function Nav() {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<Link to="/" className="nav-item nav-link">Home</Link> <span className="sr-only">(current)</span>
+						<Link to="/react_portfolio" className="nav-item nav-link">Home</Link> <span className="sr-only">(current)</span>
 						<Link to="/projects" className="nav-item nav-link">Projects</Link>
 						<a className="nav-item nav-link" href={resume} target="_blank">Resume</a>
 					</div>

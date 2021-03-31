@@ -12,8 +12,8 @@ export default function Home() {
           	 </div>
              <div className="col-4 back">
               <p className="about">About Me</p>
-                  <p className="about">My name is Brandon Fontes, i am a junior full stack web developer operating out of Utah. I love to play guitar and spend time with by Bearded Dragon Bean. Have any questions?</p> 
-                      <p className="about"><a href="mailto:brandonjfontes@gmail.com"> Contact me</a></p></div>
+                  <p className="about">My name is Brandon Fontes. I am a junior full stack web developer operating out of Utah. I love to play guitar and spend time with my bearded dragon Bean. Have any questions?</p> 
+                      <p className="about"><a className="about" href="mailto:brandonjfontes@gmail.com"> Contact me</a></p></div>
           </div>
           <div className="row mt-3">
             <div className="col-3"></div>

@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <Route exact path="/"><Home /></Route>
+      <Route path="/react_portfolio"><Home /></Route>
       <Route path="/projects"><Projects /></Route>
     </div>
   );
