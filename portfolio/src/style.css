@@ -20,20 +20,26 @@
   font-family: "Kiwi Maru", serif;
 }
 .social {
-  height: 40%;
+  height: 20%;
   margin-top: 3%;
-  margin-left: 5%;
+  margin-left: 20%;
 }
 .social1 {
   margin-left: 10%;
 }
 
-.navbar-nav a{
-	margin-left: 10px;
-	color: #fff;
+.navbar-nav a {
+  margin-left: 10px;
+  color: #fff;
 }
 
-.navbar p{
-	color: #fff;
-	font-size: 18px;
+.navbar p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 1%;
+}
+.about {
+  text-align: center;
+  color: white;
+  font-size: larger;
 }
