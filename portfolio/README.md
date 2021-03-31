@@ -1,7 +1,7 @@
 
   # Title
   React_portfolio  
-    
+    ![](portfolio.JPG)
   # Table of contents
   *[Description](#Description)
   *[Installation](#Install)
