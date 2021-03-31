@@ -1,4 +1,5 @@
 import React from 'react'
+import headshot from './headshot.jpg'
 
 export default function Home() {
     return (
@@ -7,7 +8,7 @@ export default function Home() {
           <div className="row mt-5">
           	 <div className="col-3"></div>
           	 <div className="col-2">
-          	 	<img className="headshot" src="/headshot.jpg" alt="headshot"/>
+          	 	<img className="headshot" src={headshot} alt="headshot"/>
           	 </div>
              <div className="col-4 back">
               <p className="about">About Me</p>

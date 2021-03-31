@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import resume from './resume.pdf'
 
 export default function Nav() {
     return (
@@ -13,7 +14,7 @@ export default function Nav() {
 					<div className="navbar-nav">
 						<Link to="/" className="nav-item nav-link">Home</Link> <span className="sr-only">(current)</span>
 						<Link to="/projects" className="nav-item nav-link">Projects</Link>
-						<a className="nav-item nav-link" href="/Brandon_Fontes_Resume.PDF" target="_blank">Resume</a>
+						<a className="nav-item nav-link" href={resume} target="_blank">Resume</a>
 					</div>
 				</div>
 			</nav>
